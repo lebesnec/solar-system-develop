@@ -845,7 +845,10 @@ const WEYWOT = {
     meanAnomaly: 0,
     type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CELESTIAL_BODY_TYPE.SATELLITE,
     satellites: [],
-    orbitBody: null
+    orbitBody: null,
+    unknowData: {
+        meanAnomaly: true
+    }
 };
 const QUAOAR = {
     id: 'quaoar',
@@ -878,7 +881,11 @@ const XIANGLIU = {
     meanAnomaly: 0,
     type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CELESTIAL_BODY_TYPE.SATELLITE,
     satellites: [],
-    orbitBody: null
+    orbitBody: null,
+    unknowData: {
+        mass: true,
+        meanAnomaly: true
+    }
 };
 const GONGGONG = {
     id: 'gonggong',
