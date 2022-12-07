@@ -339,26 +339,29 @@ function CelestialBodyDialogComponent_ng_container_36_tr_34_Template(rf, ctx) { 
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("href", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](3, 3, "https://en.wikipedia.org/wiki/Longitude_of_the_ascending_node"), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](5, 5, "Longitude of the ascending node"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](5, 5, "Longitude of the ascending node"), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", (ctx_r8.body.unknowData == null ? null : ctx_r8.body.unknowData.longitudeOfAscendingNode) ? _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind2"](8, 7, "unknown", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](17, _c1)) : _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind2"](9, 10, "NB\u00B0", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](18, _c2, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](10, 13, ctx_r8.body.longitudeOfAscendingNode, "1.0-0", ctx_r8.lang))), " ");
 } }
 function CelestialBodyDialogComponent_ng_container_36_tr_35_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "tr")(1, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "tr")(1, "td")(2, "a", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](3, "translate");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](6, "number");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](7, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](5, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](8, "number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](9, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
 } if (rf & 2) {
     const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](3, 2, "Satellites"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("href", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](3, 3, "https://en.wikipedia.org/wiki/Natural_satellite"), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](5, 5, "Satellites"), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", ctx_r9.body.satellites.length > 0 ? _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](6, 4, ctx_r9.body.satellites.length, "1.0-0", ctx_r9.lang) : _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](7, 8, "none"), " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", ctx_r9.body.satellites.length > 0 ? _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](8, 7, ctx_r9.body.satellites.length, "1.0-0", ctx_r9.lang) : _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](9, 11, "none"), " ");
 } }
 const _c3 = function () { return { suffix: "" }; };
 function CelestialBodyDialogComponent_ng_container_36_Template(rf, ctx) { if (rf & 1) {
@@ -397,26 +400,26 @@ function CelestialBodyDialogComponent_ng_container_36_Template(rf, ctx) { if (rf
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](33, CelestialBodyDialogComponent_ng_container_36_tr_33_Template, 11, 20, "tr", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](34, CelestialBodyDialogComponent_ng_container_36_tr_34_Template, 11, 20, "tr", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](35, CelestialBodyDialogComponent_ng_container_36_tr_35_Template, 8, 10, "tr", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](35, CelestialBodyDialogComponent_ng_container_36_tr_35_Template, 10, 13, "tr", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerEnd"]();
 } if (rf & 2) {
     const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("href", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](4, 12, "https://en.wikipedia.org/wiki/Mean_anomaly"), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](6, 14, "Mean anomaly"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](6, 14, "Mean anomaly"), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", (ctx_r6.body.unknowData == null ? null : ctx_r6.body.unknowData.meanAnomaly) ? _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind2"](9, 16, "unknown", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](51, _c1)) : _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind2"](10, 19, "NB\u00B0", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](52, _c2, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](11, 22, ctx_r6.body.meanAnomaly, "1.0-0", ctx_r6.lang))), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("href", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](15, 26, "https://en.wikipedia.org/wiki/Orbital_eccentricity"), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](17, 28, "Eccentricity"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](17, 28, "Eccentricity"), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", (ctx_r6.body.unknowData == null ? null : ctx_r6.body.unknowData.eccentricity) ? _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind2"](20, 30, "unknown", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](54, _c1)) : _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](21, 33, ctx_r6.body.eccentricity, "1.1-10", ctx_r6.lang), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("href", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](25, 37, "https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes"), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](27, 39, "Semi-major axis"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](27, 39, "Semi-major axis"), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", (ctx_r6.body.unknowData == null ? null : ctx_r6.body.unknowData.semiMajorAxis) ? _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind2"](30, 41, "unknown", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](55, _c3)) : _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind2"](31, 44, "NB km", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](56, _c2, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](32, 47, ctx_r6.body.semiMajorAxis, "1.0-0", ctx_r6.lang))), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
@@ -513,13 +516,13 @@ CelestialBodyDialogComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORT
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("href", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](17, 18, "https://en.wikipedia.org/wiki/Mass"), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](19, 20, "Mass"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](19, 20, "Mass"), " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", (ctx.body.unknowData == null ? null : ctx.body.unknowData.mass) ? _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind2"](22, 22, "unknown", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](46, _c1)) : _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind2"](23, 25, "NB kg", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](47, _c2, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](24, 28, ctx.body.mass, "1.0-3", ctx.lang))), " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("href", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](28, 32, "https://en.wikipedia.org/wiki/Radius"), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](30, 34, "Mean radius"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](30, 34, "Mean radius"), " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", (ctx.body.unknowData == null ? null : ctx.body.unknowData.radius) ? _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind2"](33, 36, "unknown", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](49, _c3)) : _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind2"](34, 39, "NB km", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](50, _c2, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind3"](35, 42, ctx.body.radius, "1.0-0", ctx.lang))), " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
@@ -5366,33 +5369,33 @@ class SceneComponent {
             .attr('y', (d) => d.boundingBox.bottom + LABEL_DISTANCE_TO_BODY.y - (SYMBOL_SIZE / 2)));
     }
     initScale() {
-        const SCALE_PADDING_X = window.innerWidth <= 400 ? 20 : 50; // px
-        const SCALE_PADDING_Y = window.innerWidth <= 400 ? 40 : 50; // px
-        const SCALE_AVERAGE_WIDTH = Math.min(200, window.innerWidth - SCALE_PADDING_X - COMPAS_WIDTH - 200); // px
-        const scaleSizeAU = SCALE_AVERAGE_WIDTH / ((_scene_model__WEBPACK_IMPORTED_MODULE_0__.AU_TO_KM / _scene_service__WEBPACK_IMPORTED_MODULE_2__.KM_TO_PX) * this.transform.k);
+        const paddingX = window.innerWidth <= 400 ? 20 : 50; // px
+        const paddingY = window.innerWidth <= 400 ? 40 : 50; // px
+        const averageScaleWidth = Math.min(200, window.innerWidth - paddingX - COMPAS_WIDTH - 200); // px
+        const scaleSizeAU = averageScaleWidth / ((_scene_model__WEBPACK_IMPORTED_MODULE_0__.AU_TO_KM / _scene_service__WEBPACK_IMPORTED_MODULE_2__.KM_TO_PX) * this.transform.k); // au
         // find the nearest available scale value:
         const scale = SCALE_POSSIBLE_VALUES.sort((a, b) => Math.abs(scaleSizeAU - a.max) - Math.abs(scaleSizeAU - b.max))[0];
-        const scaleSizePx = ((scale.max * _scene_model__WEBPACK_IMPORTED_MODULE_0__.AU_TO_KM) / _scene_service__WEBPACK_IMPORTED_MODULE_2__.KM_TO_PX) * this.transform.k;
-        const scaleSizeKm = Math.round(scale.max * _scene_model__WEBPACK_IMPORTED_MODULE_0__.AU_TO_KM);
+        const scaleWidth = ((scale.max * _scene_model__WEBPACK_IMPORTED_MODULE_0__.AU_TO_KM) / _scene_service__WEBPACK_IMPORTED_MODULE_2__.KM_TO_PX) * this.transform.k; // px
+        const scaleSizeKm = Math.round(scale.max * _scene_model__WEBPACK_IMPORTED_MODULE_0__.AU_TO_KM); // km
         this.groupForegroundSelection.select('.scale').remove();
         const groupScaleSelection = this.groupForegroundSelection.append('g').attr('class', 'scale');
         // horizontal line
         groupScaleSelection.append('path')
             .attr('shape-rendering', 'crispEdges')
-            .attr('d', `M ${SCALE_PADDING_X + COMPAS_WIDTH} ${window.innerHeight - SCALE_PADDING_Y} L ${SCALE_PADDING_X + COMPAS_WIDTH + scaleSizePx} ${window.innerHeight - SCALE_PADDING_Y}`);
+            .attr('d', `M ${paddingX + COMPAS_WIDTH} ${window.innerHeight - paddingY} L ${paddingX + COMPAS_WIDTH + scaleWidth} ${window.innerHeight - paddingY}`);
         // ticks
         for (let i = 0; i < scale.max; i = i + scale.tickInterval) {
             const nbPx = ((i * _scene_model__WEBPACK_IMPORTED_MODULE_0__.AU_TO_KM) / _scene_service__WEBPACK_IMPORTED_MODULE_2__.KM_TO_PX) * this.transform.k;
             const height = (i % (SCALE_LARGE_TICK_STEP * scale.tickInterval) === 0 || i === scale.max ? SCALE_HEIGHT_LARGE_TICK : SCALE_HEIGHT_SMALL_TICK);
             groupScaleSelection.append('path')
                 .attr('shape-rendering', 'crispEdges')
-                .attr('d', `M ${SCALE_PADDING_X + COMPAS_WIDTH + nbPx} ${window.innerHeight - SCALE_PADDING_Y - (height / 2)} L ${SCALE_PADDING_X + COMPAS_WIDTH + nbPx} ${window.innerHeight - SCALE_PADDING_Y + (height / 2)}`);
+                .attr('d', `M ${paddingX + COMPAS_WIDTH + nbPx} ${window.innerHeight - paddingY - (height / 2)} L ${paddingX + COMPAS_WIDTH + nbPx} ${window.innerHeight - paddingY + (height / 2)}`);
         }
         // last tick (not included in the previous loop because of float rounding error)
         const nbPxLastTick = ((scale.max * _scene_model__WEBPACK_IMPORTED_MODULE_0__.AU_TO_KM) / _scene_service__WEBPACK_IMPORTED_MODULE_2__.KM_TO_PX) * this.transform.k;
         groupScaleSelection.append('path')
             .attr('shape-rendering', 'crispEdges')
-            .attr('d', `M ${SCALE_PADDING_X + COMPAS_WIDTH + nbPxLastTick} ${window.innerHeight - SCALE_PADDING_Y - (SCALE_HEIGHT_LARGE_TICK / 2)} L ${SCALE_PADDING_X + COMPAS_WIDTH + nbPxLastTick} ${window.innerHeight - SCALE_PADDING_Y + (SCALE_HEIGHT_LARGE_TICK / 2)}`);
+            .attr('d', `M ${paddingX + COMPAS_WIDTH + nbPxLastTick} ${window.innerHeight - paddingY - (SCALE_HEIGHT_LARGE_TICK / 2)} L ${paddingX + COMPAS_WIDTH + nbPxLastTick} ${window.innerHeight - paddingY + (SCALE_HEIGHT_LARGE_TICK / 2)}`);
         const translationParams = {
             NB_AU: (0,_angular_common__WEBPACK_IMPORTED_MODULE_22__.formatNumber)(scale.max, this.translate.currentLang, '1.0-4'),
             NB_KM: (0,_angular_common__WEBPACK_IMPORTED_MODULE_22__.formatNumber)(scaleSizeKm, this.translate.currentLang, '1.0-4')
@@ -5405,8 +5408,8 @@ class SceneComponent {
             groupScaleSelection.append('text')
                 .text(translations[SCALE_TEXT_KEY])
                 .attr('dominant-baseline', 'central')
-                .attr('x', SCALE_PADDING_X + COMPAS_WIDTH + scaleSizePx + SCALE_TEXT_PADDING)
-                .attr('y', window.innerHeight - SCALE_PADDING_Y)
+                .attr('x', paddingX + COMPAS_WIDTH + scaleWidth + SCALE_TEXT_PADDING)
+                .attr('y', window.innerHeight - paddingY)
                 .append('title')
                 .html(scale.max > 1 ? translations[SCALE_TITLE_PLURAL_KEY] : translations[SCALE_TITLE_KEY]);
             // compass
@@ -5415,16 +5418,16 @@ class SceneComponent {
             groupCompassSelection.append('text')
                 .html('▲')
                 .attr('dominant-baseline', 'central')
-                .attr('x', SCALE_PADDING_X)
-                .attr('y', window.innerHeight - SCALE_PADDING_Y - (SCALE_HEIGHT_LARGE_TICK / 2) - (SCALE_TEXT_PADDING / 4))
+                .attr('x', paddingX)
+                .attr('y', window.innerHeight - paddingY - (SCALE_HEIGHT_LARGE_TICK / 2) - (SCALE_TEXT_PADDING / 4))
                 .attr('class', 'compass')
                 .append('title')
                 .html(translations[COMPASS_TITLE_KEY]);
             groupCompassSelection.append('text')
                 .html('ɤ')
                 .attr('dominant-baseline', 'central')
-                .attr('x', SCALE_PADDING_X)
-                .attr('y', window.innerHeight - SCALE_PADDING_Y + (SCALE_HEIGHT_LARGE_TICK / 2) + (SCALE_TEXT_PADDING / 4))
+                .attr('x', paddingX)
+                .attr('y', window.innerHeight - paddingY + (SCALE_HEIGHT_LARGE_TICK / 2) + (SCALE_TEXT_PADDING / 4))
                 .attr('class', 'compass')
                 .append('title')
                 .html(translations[COMPASS_TITLE_KEY]);
