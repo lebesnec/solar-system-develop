@@ -5839,7 +5839,7 @@ class ContactComponent {
     constructor() { }
 }
 ContactComponent.ɵfac = function ContactComponent_Factory(t) { return new (t || ContactComponent)(); };
-ContactComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 17, vars: 7, consts: [["mat-dialog-title", "", "cdkDrag", "", "cdkDragRootElement", ".cdk-overlay-pane", "cdkDragHandle", ""], ["mat-icon-button", "", "aria-label", "close", 1, "close-button", 3, "mat-dialog-close"], ["fontIcon", "close"], [3, "innerHTML"], ["href", "https://github.com/lebesnec/solar-system/discussions", "target", "_blank", "mat-stroked-button", ""], ["fontIcon", "forum"], ["href", "https://twitter.com/TODO", "target", "_blank", "mat-stroked-button", ""], ["fontIcon", "group"], ["href", "mailto:christophe.lebesnerais.pro@gmail.com", "target", "_blank", "mat-stroked-button", ""], ["fontIcon", "mail"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
+ContactComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 17, vars: 7, consts: [["mat-dialog-title", "", "cdkDrag", "", "cdkDragRootElement", ".cdk-overlay-pane", "cdkDragHandle", ""], ["mat-icon-button", "", "aria-label", "close", 1, "close-button", 3, "mat-dialog-close"], ["fontIcon", "close"], [3, "innerHTML"], ["href", "https://github.com/lebesnec/solar-system/discussions", "target", "_blank", "mat-stroked-button", ""], ["fontIcon", "forum"], ["href", "https://twitter.com/celestial_map", "target", "_blank", "mat-stroked-button", ""], ["fontIcon", "group"], ["href", "mailto:christophe.lebesnerais.pro@gmail.com", "target", "_blank", "mat-stroked-button", ""], ["fontIcon", "mail"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "translate");
@@ -5855,7 +5855,7 @@ ContactComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0_
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "mat-icon", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "\u00A0\u00A0twitter.com/TODO\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "\u00A0\u00A0twitter.com/celestial_map\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "mat-icon", 9);
