@@ -5708,7 +5708,7 @@ class SceneComponent {
                 this.celestialBodyDialogRef = null;
             });
         }
-        history.pushState({}, '', '/' + body.id);
+        history.pushState({}, '', body.id);
     }
 }
 SceneComponent.ɵfac = function SceneComponent_Factory(t) { return new (t || SceneComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_25__.MatDialog), _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdirectiveInject"](_scene_service__WEBPACK_IMPORTED_MODULE_2__.SceneService), _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdirectiveInject"](_shell_search_panel_search_panel_service__WEBPACK_IMPORTED_MODULE_15__.SearchPanelService), _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdirectiveInject"](_shell_settings_settings_service__WEBPACK_IMPORTED_MODULE_14__.SettingsService), _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_26__.TranslateService), _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_27__.ActivatedRoute)); };
