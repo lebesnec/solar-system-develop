@@ -19,7 +19,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: ':id', component: _scene_scene_component__WEBPACK_IMPORTED_MODULE_0__.SceneComponent },
     { path: '**', component: _scene_scene_component__WEBPACK_IMPORTED_MODULE_0__.SceneComponent }
 ];
 class AppRoutingModule {
@@ -5301,9 +5300,9 @@ class SceneComponent {
         this.translateService.onLangChange.subscribe(() => {
             this.onLangChange();
         });
-        this.route.params.subscribe(params => {
-            if (params.id) {
-                this.handleParamId(params.id);
+        this.route.queryParams.subscribe(params => {
+            if (params.goto) {
+                this.handleParamId(params.goto);
             }
         });
     }
@@ -5708,7 +5707,10 @@ class SceneComponent {
                 this.celestialBodyDialogRef = null;
             });
         }
-        history.pushState({}, '', body.id);
+        // update the browser url:
+        const url = new URL(location.href);
+        url.searchParams.set('goto', body.id);
+        history.pushState(null, '', url);
     }
 }
 SceneComponent.ɵfac = function SceneComponent_Factory(t) { return new (t || SceneComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_25__.MatDialog), _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdirectiveInject"](_scene_service__WEBPACK_IMPORTED_MODULE_2__.SceneService), _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdirectiveInject"](_shell_search_panel_search_panel_service__WEBPACK_IMPORTED_MODULE_15__.SearchPanelService), _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdirectiveInject"](_shell_settings_settings_service__WEBPACK_IMPORTED_MODULE_14__.SettingsService), _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_26__.TranslateService), _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_27__.ActivatedRoute)); };
