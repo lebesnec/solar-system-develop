@@ -1189,6 +1189,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "S_2011_J_1": () => (/* binding */ S_2011_J_1),
 /* harmony export */   "S_2011_J_2": () => (/* binding */ S_2011_J_2),
 /* harmony export */   "S_2016_J_1": () => (/* binding */ S_2016_J_1),
+/* harmony export */   "S_2016_J_3": () => (/* binding */ S_2016_J_3),
+/* harmony export */   "S_2016_J_4": () => (/* binding */ S_2016_J_4),
 /* harmony export */   "S_2017_J_1": () => (/* binding */ S_2017_J_1),
 /* harmony export */   "S_2017_J_2": () => (/* binding */ S_2017_J_2),
 /* harmony export */   "S_2017_J_3": () => (/* binding */ S_2017_J_3),
@@ -1197,6 +1199,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "S_2017_J_7": () => (/* binding */ S_2017_J_7),
 /* harmony export */   "S_2017_J_8": () => (/* binding */ S_2017_J_8),
 /* harmony export */   "S_2017_J_9": () => (/* binding */ S_2017_J_9),
+/* harmony export */   "S_2018_J_3": () => (/* binding */ S_2018_J_3),
+/* harmony export */   "S_2018_J_4": () => (/* binding */ S_2018_J_4),
+/* harmony export */   "S_2021_J_1": () => (/* binding */ S_2021_J_1),
+/* harmony export */   "S_2021_J_2": () => (/* binding */ S_2021_J_2),
+/* harmony export */   "S_2021_J_3": () => (/* binding */ S_2021_J_3),
+/* harmony export */   "S_2021_J_4": () => (/* binding */ S_2021_J_4),
+/* harmony export */   "S_2021_J_5": () => (/* binding */ S_2021_J_5),
+/* harmony export */   "S_2021_J_6": () => (/* binding */ S_2021_J_6),
+/* harmony export */   "S_2022_J_1": () => (/* binding */ S_2022_J_1),
+/* harmony export */   "S_2022_J_2": () => (/* binding */ S_2022_J_2),
+/* harmony export */   "S_2022_J_3": () => (/* binding */ S_2022_J_3),
 /* harmony export */   "TAYGETE": () => (/* binding */ TAYGETE),
 /* harmony export */   "THEBE": () => (/* binding */ THEBE),
 /* harmony export */   "THELXINOE": () => (/* binding */ THELXINOE),
@@ -1343,7 +1356,7 @@ const THEMISTO = {
     mass: 0.069e16,
     radius: 4.5,
     semiMajorAxis: 7405000,
-    eccentricity: 0.2514,
+    eccentricity: 0.2424,
     trueAnomaly: 0,
     meanAnomaly: 313.051,
     type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
@@ -2470,6 +2483,227 @@ const SINOPE = {
     satellites: [],
     orbitBody: null
 };
+const S_2018_J_4 = {
+    id: 's_2018-j-4',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.00042e16,
+    radius: 1,
+    semiMajorAxis: 16328500,
+    eccentricity: 0.177,
+    trueAnomaly: 0,
+    meanAnomaly: 307.484673,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
+const S_2021_J_3 = {
+    id: 's_2021-j-3',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.00042e16,
+    radius: 1,
+    semiMajorAxis: 20776700,
+    eccentricity: 0.239,
+    trueAnomaly: 0,
+    meanAnomaly: 64.69138,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
+const S_2022_J_3 = {
+    id: 's_2022-j-3',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.000052e16,
+    radius: 0.5,
+    semiMajorAxis: 20912400,
+    eccentricity: 0.272,
+    trueAnomaly: 0,
+    meanAnomaly: 77.88890,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
+const S_2021_J_2 = {
+    id: 's_2021-j-2',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.000052e16,
+    radius: 0.5,
+    semiMajorAxis: 20926600,
+    eccentricity: 0.242,
+    trueAnomaly: 0,
+    meanAnomaly: 320.08120,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
+const S_2021_J_1 = {
+    id: 's_2021-j-1',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.000052e16,
+    radius: 0.5,
+    semiMajorAxis: 20954700,
+    eccentricity: 0.228,
+    trueAnomaly: 0,
+    meanAnomaly: 312.94753,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
+const S_2022_J_1 = {
+    id: 's_2022-j-1',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.000052e16,
+    radius: 0.5,
+    semiMajorAxis: 22015500,
+    eccentricity: 0.191,
+    trueAnomaly: 0,
+    meanAnomaly: 330.01243,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
+const S_2022_J_2 = {
+    id: 's_2022-j-2',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.000052e16,
+    radius: 0.5,
+    semiMajorAxis: 22413200,
+    eccentricity: 0.182,
+    trueAnomaly: 0,
+    meanAnomaly: 257.85858,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
+const S_2016_J_3 = {
+    id: 's_2016-j-3',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.00042e16,
+    radius: 1,
+    semiMajorAxis: 22719300,
+    eccentricity: 0.251,
+    trueAnomaly: 0,
+    meanAnomaly: 1.36683,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
+const S_2021_J_6 = {
+    id: 's_2021-j-6',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.000052e16,
+    radius: 0.5,
+    semiMajorAxis: 22870300,
+    eccentricity: 0.271,
+    trueAnomaly: 0,
+    meanAnomaly: 77.36574,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
+const S_2021_J_4 = {
+    id: 's_2021-j-4',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.000052e16,
+    radius: 0.5,
+    semiMajorAxis: 23019700,
+    eccentricity: 0.265,
+    trueAnomaly: 0,
+    meanAnomaly: 102.76481,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
+const S_2016_J_4 = {
+    id: 's_2016-j-4',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.000052e16,
+    radius: 0.5,
+    semiMajorAxis: 23113800,
+    eccentricity: 0.294,
+    trueAnomaly: 0,
+    meanAnomaly: 138.36439,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
+const S_2018_J_3 = {
+    id: 's_2018-j-3',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.000052e16,
+    radius: 0.5,
+    semiMajorAxis: 23400300,
+    eccentricity: 0.268,
+    trueAnomaly: 0,
+    meanAnomaly: 16.59790,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
+const S_2021_J_5 = {
+    id: 's_2021-j-5',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.00042e16,
+    radius: 1,
+    semiMajorAxis: 23414600,
+    eccentricity: 0.272,
+    trueAnomaly: 0,
+    meanAnomaly: 329.67857,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
 const JUPITER = {
     id: 'jupiter',
     position: {
@@ -2564,7 +2798,20 @@ const JUPITER = {
         AOEDE,
         S_2003_J_23,
         CALLIRRHOE,
-        SINOPE
+        SINOPE,
+        S_2018_J_4,
+        S_2021_J_3,
+        S_2022_J_3,
+        S_2021_J_2,
+        S_2021_J_1,
+        S_2022_J_1,
+        S_2022_J_2,
+        S_2016_J_3,
+        S_2021_J_6,
+        S_2021_J_4,
+        S_2016_J_4,
+        S_2018_J_3,
+        S_2021_J_5
     ],
     orbitBody: null
 };
@@ -3050,6 +3297,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "S_2007_S_2": () => (/* binding */ S_2007_S_2),
 /* harmony export */   "S_2007_S_3": () => (/* binding */ S_2007_S_3),
 /* harmony export */   "S_2009_S_1": () => (/* binding */ S_2009_S_1),
+/* harmony export */   "S_2019_S_1": () => (/* binding */ S_2019_S_1),
 /* harmony export */   "TARQEQ": () => (/* binding */ TARQEQ),
 /* harmony export */   "TARVOS": () => (/* binding */ TARVOS),
 /* harmony export */   "TELESTO": () => (/* binding */ TELESTO),
@@ -4372,6 +4620,23 @@ const S_2004_S_26 = {
     satellites: [],
     orbitBody: null
 };
+const S_2019_S_1 = {
+    id: 's_2019-s-1',
+    position: {
+        x: 0,
+        y: 0
+    },
+    speed: 0,
+    mass: 0.014e15,
+    radius: 1.5,
+    semiMajorAxis: 11244000,
+    eccentricity: 0.541,
+    trueAnomaly: 0,
+    meanAnomaly: 66.33,
+    type: _scene_model__WEBPACK_IMPORTED_MODULE_0__.CelestialBodyType.SATELLITE,
+    satellites: [],
+    orbitBody: null
+};
 const SATURN = {
     id: 'saturn',
     position: {
@@ -4469,7 +4734,8 @@ const SATURN = {
         S_2004_S_36,
         FORNJOT,
         S_2004_S_34,
-        S_2004_S_26
+        S_2004_S_26,
+        S_2019_S_1
     ],
     orbitBody: null
 };
@@ -4562,7 +4828,8 @@ const MISSING_PICTURES = [
     _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_25, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_32, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_23, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2006_S_3, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_35, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.KARI, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_28, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.LOGE, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_38, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.FENRIR, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.YMIR, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.SURTUR, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_33,
     _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_24, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_21, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_39, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_36, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.FORNJOT, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_34, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2004_S_26, _Uranus_data__WEBPACK_IMPORTED_MODULE_7__.PORTIA, _Uranus_data__WEBPACK_IMPORTED_MODULE_7__.PERDITA, _Uranus_data__WEBPACK_IMPORTED_MODULE_7__.FRANCISCO, _Uranus_data__WEBPACK_IMPORTED_MODULE_7__.CALIBAN, _Uranus_data__WEBPACK_IMPORTED_MODULE_7__.STEPHANO,
     _Uranus_data__WEBPACK_IMPORTED_MODULE_7__.TRINCULO, _Uranus_data__WEBPACK_IMPORTED_MODULE_7__.SYCORAX, _Uranus_data__WEBPACK_IMPORTED_MODULE_7__.MARGARET, _Uranus_data__WEBPACK_IMPORTED_MODULE_7__.PROSPERO, _Uranus_data__WEBPACK_IMPORTED_MODULE_7__.SETEBOS, _Uranus_data__WEBPACK_IMPORTED_MODULE_7__.FERDINAND, _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.NAIAD, _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.THALASSA, _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.DESPINA, _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.GALATEA, _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.HIPPOCAMP, _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.HALIMEDE, _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.SAO, _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.LAOMEDEIA,
-    _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.PSAMATHE, _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.NESO, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.DYSNOMIA, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.S_2015_1, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.HIIAKA, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.NAMAKA, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.VANTH, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.WEYWOT, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.XIANGLIU
+    _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.PSAMATHE, _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.NESO, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.DYSNOMIA, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.S_2015_1, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.HIIAKA, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.NAMAKA, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.VANTH, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.WEYWOT, _DwarfPlanets_data__WEBPACK_IMPORTED_MODULE_9__.XIANGLIU, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2018_J_4, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2021_J_3, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2022_J_3, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2021_J_2, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2021_J_1,
+    _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2022_J_1, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2022_J_2, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2016_J_3, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2021_J_6, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2021_J_4, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2016_J_4, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2018_J_3, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.S_2021_J_5, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.S_2019_S_1
 ];
 const HAS_SYMBOL = [
     SUN, _Mercury_data__WEBPACK_IMPORTED_MODULE_1__.MERCURY, _Venus_data__WEBPACK_IMPORTED_MODULE_2__.VENUS, _Earth_data__WEBPACK_IMPORTED_MODULE_3__.EARTH, _Earth_data__WEBPACK_IMPORTED_MODULE_3__.MOON, _Mars_data__WEBPACK_IMPORTED_MODULE_4__.MARS, _Jupiter_data__WEBPACK_IMPORTED_MODULE_5__.JUPITER, _Saturn_data__WEBPACK_IMPORTED_MODULE_6__.SATURN, _Uranus_data__WEBPACK_IMPORTED_MODULE_7__.URANUS, _Neptune_data__WEBPACK_IMPORTED_MODULE_8__.NEPTUNE,
