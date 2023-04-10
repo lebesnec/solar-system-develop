@@ -20,7 +20,10 @@
 .mat-typography .mat-h1,
 .mat-typography .mat-headline-5,
 .mat-typography h1 {
-  font: 400 24px / 32px "Exo 2", sans-serif;;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: normal;
   margin: 0 0 16px;
 }
@@ -30,7 +33,10 @@
 .mat-typography .mat-h2,
 .mat-typography .mat-headline-6,
 .mat-typography h2 {
-  font: 500 20px / 32px "Exo 2", sans-serif;;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.0125em;
   margin: 0 0 16px;
 }
@@ -40,7 +46,10 @@
 .mat-typography .mat-h3,
 .mat-typography .mat-subtitle-1,
 .mat-typography h3 {
-  font: 400 16px / 28px "Exo 2", sans-serif;;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.009375em;
   margin: 0 0 16px;
 }
@@ -50,7 +59,10 @@
 .mat-typography .mat-h4,
 .mat-typography .mat-body-1,
 .mat-typography h4 {
-  font: 400 16px / 24px "Exo 2", sans-serif;;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.03125em;
   margin: 0 0 16px;
 }
@@ -73,7 +85,10 @@
 .mat-subtitle-2,
 .mat-typography .mat-body-strong,
 .mat-typography .mat-subtitle-2 {
-  font: 500 14px / 22px "Exo 2", sans-serif;;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.0071428571em;
 }
 
@@ -82,7 +97,10 @@
 .mat-typography .mat-body,
 .mat-typography .mat-body-2,
 .mat-typography {
-  font: 400 14px / 20px "Exo 2", sans-serif;;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.0178571429em;
 }
 .mat-body p,
@@ -97,40 +115,58 @@
 .mat-caption,
 .mat-typography .mat-small,
 .mat-typography .mat-caption {
-  font: 400 12px / 20px "Exo 2", sans-serif;;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.0333333333em;
 }
 
 .mat-headline-1,
 .mat-typography .mat-headline-1 {
-  font: 300 96px / 96px "Exo 2", sans-serif;;
+  font-size: 96px;
+  font-weight: 300;
+  line-height: 96px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: -0.015625em;
   margin: 0 0 56px;
 }
 
 .mat-headline-2,
 .mat-typography .mat-headline-2 {
-  font: 300 60px / 60px "Exo 2", sans-serif;;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 60px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: -0.0083333333em;
   margin: 0 0 64px;
 }
 
 .mat-headline-3,
 .mat-typography .mat-headline-3 {
-  font: 400 48px / 50px "Exo 2", sans-serif;;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 50px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: normal;
   margin: 0 0 64px;
 }
 
 .mat-headline-4,
 .mat-typography .mat-headline-4 {
-  font: 400 34px / 40px "Exo 2", sans-serif;;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.0073529412em;
   margin: 0 0 64px;
 }
 
 .mat-bottom-sheet-container {
-  font: 400 14px / 20px "Exo 2", sans-serif;;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.0178571429em;
 }
 
@@ -164,7 +200,10 @@
 }
 
 .mat-expansion-panel-content {
-  font: 400 14px / 20px "Exo 2", sans-serif;;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.0178571429em;
 }
 
@@ -214,7 +253,10 @@
 .mat-toolbar h4,
 .mat-toolbar h5,
 .mat-toolbar h6 {
-  font: 500 20px / 32px "Exo 2", sans-serif;;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.0125em;
   margin: 0;
 }
@@ -515,7 +557,10 @@
 }
 
 .mdc-list-group__subheader {
-  font: 400 16px / 28px "Exo 2", sans-serif;;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.009375em;
 }
 
@@ -2468,7 +2513,10 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 }
 
 .mdc-list-group__subheader {
-  font: 400 16px / 28px "Exo 2", sans-serif;;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.009375em;
 }
 
@@ -3365,7 +3413,10 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 }
 
 .mat-bottom-sheet-container {
-  font: 400 14px / 20px "Exo 2", sans-serif;;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.0178571429em;
 }
 
@@ -3759,7 +3810,10 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 }
 
 .mat-expansion-panel-content {
-  font: 400 14px / 20px "Exo 2", sans-serif;;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.0178571429em;
 }
 
@@ -3998,7 +4052,10 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 .mat-toolbar h4,
 .mat-toolbar h5,
 .mat-toolbar h6 {
-  font: 500 20px / 32px "Exo 2", sans-serif;;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  font-family: "Exo 2", sans-serif;;
   letter-spacing: 0.0125em;
   margin: 0;
 }
