@@ -1,14 +1,14 @@
 "use strict";
 (self["webpackChunksolar_system"] = self["webpackChunksolar_system"] || []).push([["polyfills"],{
 
-/***/ 55321:
+/***/ 24050:
 /*!**************************!*\
   !*** ./src/polyfills.ts ***!
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! zone.js */ 76657);
+/* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! zone.js */ 74124);
 /* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(zone_js__WEBPACK_IMPORTED_MODULE_0__);
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
@@ -61,7 +61,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 76657:
+/***/ 74124:
 /*!***********************************************!*\
   !*** ./node_modules/zone.js/fesm2015/zone.js ***!
   \***********************************************/
@@ -74,6 +74,7 @@ __webpack_require__.r(__webpack_exports__);
  * (c) 2010-2022 Google LLC. https://angular.io/
  * License: MIT
  */
+// Initialize global `Zone` constant.
 (function (global) {
   const performance = global['performance'];
   function mark(name) {
@@ -668,7 +669,7 @@ __webpack_require__.r(__webpack_exports__);
   function noop() {}
   performanceMeasure('Zone', 'Zone');
   return global['Zone'] = Zone;
-})(typeof window !== 'undefined' && window || typeof self !== 'undefined' && self || global);
+})(globalThis);
 
 /**
  * Suppress closure compiler errors about unknown 'Zone' variable
@@ -710,7 +711,7 @@ function scheduleMacroTaskWithCurrentZone(source, callback, data, customSchedule
 const zoneSymbol = Zone.__symbol__;
 const isWindowExists = typeof window !== 'undefined';
 const internalWindow = isWindowExists ? window : undefined;
-const _global = isWindowExists && internalWindow || typeof self === 'object' && self || global;
+const _global = isWindowExists && internalWindow || globalThis;
 const REMOVE_ATTRIBUTE = 'removeAttribute';
 function bindArguments(args, source) {
   for (let i = args.length - 1; i >= 0; i--) {
@@ -1054,7 +1055,7 @@ Zone.__load_patch('ZoneAwarePromise', (global, Zone, api) => {
   }
   const __symbol__ = api.symbol;
   const _uncaughtPromiseErrors = [];
-  const isDisableWrappingUncaughtPromiseRejection = global[__symbol__('DISABLE_WRAPPING_UNCAUGHT_PROMISE_REJECTION')] === true;
+  const isDisableWrappingUncaughtPromiseRejection = global[__symbol__('DISABLE_WRAPPING_UNCAUGHT_PROMISE_REJECTION')] !== false;
   const symbolPromise = __symbol__('Promise');
   const symbolThen = __symbol__('then');
   const creationTrace = '__creationTrace__';
@@ -1122,7 +1123,6 @@ Zone.__load_patch('ZoneAwarePromise', (global, Zone, api) => {
       // Do not return value or you will break the Promise spec.
     };
   }
-
   const once = function () {
     let wasCalled = false;
     return function wrapper(wrappedFunction) {
@@ -1282,10 +1282,21 @@ Zone.__load_patch('ZoneAwarePromise', (global, Zone, api) => {
       return ZONE_AWARE_PROMISE_TO_STRING;
     }
     static resolve(value) {
+      if (value instanceof ZoneAwarePromise) {
+        return value;
+      }
       return resolvePromise(new this(null), RESOLVED, value);
     }
     static reject(error) {
       return resolvePromise(new this(null), REJECTED, error);
+    }
+    static withResolvers() {
+      const result = {};
+      result.promise = new ZoneAwarePromise((res, rej) => {
+        result.resolve = res;
+        result.reject = rej;
+      });
+      return result;
     }
     static any(values) {
       if (!values || typeof values[Symbol.iterator] !== 'function') {
@@ -1869,6 +1880,11 @@ function patchEventTarget(_global, api, apis, patchOptions) {
         }
         const passive = passiveSupported && !!passiveEvents && passiveEvents.indexOf(eventName) !== -1;
         const options = buildEventListenerOptions(arguments[2], passive);
+        const signal = options && typeof options === 'object' && options.signal && typeof options.signal === 'object' ? options.signal : undefined;
+        if (signal?.aborted) {
+          // the signal is an aborted one, just return without attaching the event listener.
+          return;
+        }
         if (unpatchedEvents) {
           // check unpatched list
           for (let i = 0; i < unpatchedEvents.length; i++) {
@@ -1933,7 +1949,22 @@ function patchEventTarget(_global, api, apis, patchOptions) {
         if (data) {
           data.taskData = taskData;
         }
+        if (signal) {
+          // if addEventListener with signal options, we don't pass it to
+          // native addEventListener, instead we keep the signal setting
+          // and handle ourselves.
+          taskData.options.signal = undefined;
+        }
         const task = zone.scheduleEventTask(source, delegate, data, customScheduleFn, customCancelFn);
+        if (signal) {
+          // after task is scheduled, we need to store the signal back to task.options
+          taskData.options.signal = signal;
+          nativeListener.call(signal, 'abort', () => {
+            task.zone.cancelTask(task);
+          }, {
+            once: true
+          });
+        }
         // should clear taskData.target to avoid memory leak
         // issue, https://github.com/angular/angular/issues/20442
         taskData.target = null;
@@ -2437,7 +2468,8 @@ function patchCustomElements(_global, api) {
   if (!isBrowser && !isMix || !_global['customElements'] || !('customElements' in _global)) {
     return;
   }
-  const callbacks = ['connectedCallback', 'disconnectedCallback', 'adoptedCallback', 'attributeChangedCallback'];
+  // https://html.spec.whatwg.org/multipage/custom-elements.html#concept-custom-element-definition-lifecycle-callbacks
+  const callbacks = ['connectedCallback', 'disconnectedCallback', 'adoptedCallback', 'attributeChangedCallback', 'formAssociatedCallback', 'formDisabledCallback', 'formResetCallback', 'formStateRestoreCallback'];
   api.patchCallbacks(api, _global.customElements, 'customElements', 'define', callbacks);
 }
 function eventTargetPatch(_global, api) {
@@ -2688,7 +2720,6 @@ Zone.__load_patch('XHR', (global, Zone) => {
     });
   }
 });
-
 Zone.__load_patch('geolocation', global => {
   /// GEO_LOCATION
   if (global['navigator'] && global['navigator'].geolocation) {
@@ -2728,7 +2759,7 @@ Zone.__load_patch('queueMicrotask', (global, Zone, api) => {
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__(55321));
+/******/ var __webpack_exports__ = (__webpack_exec__(24050));
 /******/ }
 ]);
 //# sourceMappingURL=polyfills.js.map
