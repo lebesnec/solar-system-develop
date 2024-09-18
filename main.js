@@ -78940,7 +78940,7 @@ var ContactComponent = _ContactComponent;
 })();
 
 // src/environments/version.ts
-var VERSION8 = "1.4.0";
+var VERSION8 = "1.5.0";
 
 // src/app/shell/about/about.component.ts
 var _AboutComponent = class _AboutComponent {
