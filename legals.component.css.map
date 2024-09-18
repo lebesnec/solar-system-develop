@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shell/legals/legals.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\nh1 {\n  padding-top: 30px;\n}\n\nh1:first-of-type {\n  padding-top: 0;\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;;AAGF;AACE,eAAA;;AAGF,EAAA;AACE,eAAA;;",
+  "names": []
+}

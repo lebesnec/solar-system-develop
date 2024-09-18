@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shell/contact/contact.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\np {\n  margin-bottom: 10px;\n}\n\na[mat-stroked-button] {\n  display: block;\n  height: 80px;\n  width: 100%;\n  margin-top: 15px;\n  padding-top: 28px;\n  border-color: rgba(197, 197, 197, 0.5) !important;\n  text-align: center;\n  font-size: 16px;\n  font-weight: bold;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  color: white;\n}\na[mat-stroked-button]:hover {\n  background-color: rgba(197, 197, 197, 0.2);\n}\n\n:host ::ng-deep a[mat-stroked-button] .mat-button-wrapper {\n  line-height: 80px;\n}\n\n// mobile\n@media only screen and (max-width: 800px) and (min-width: 550px) {\n  a[mat-stroked-button] {\n    margin-right: auto;\n    margin-left: auto;\n    width: 75%;\n    font-size: 14px;\n  }\n}\n@media only screen and (max-width: 500px) {\n  a[mat-stroked-button] {\n    font-size: 13px;\n  }\n}\n\n"],
+  "mappings": ";AAAA;AACE,WAAA;;AAGF;AACE,iBAAA;;AAGF,CAAA,CAAA;AACE,WAAA;AACA,UAAA;AACA,SAAA;AACA,cAAA;AACA,eAAA;AACA,gBAAA,KAAA,GAAA,EAAA,GAAA,EAAA,GAAA,EAAA;AACA,cAAA;AACA,aAAA;AACA,eAAA;AACA,YAAA;AACA,iBAAA;AACA,SAAA;;AAEF,CAAA,CAAA,mBAAA;AACE,oBAAA,KAAA,GAAA,EAAA,GAAA,EAAA,GAAA,EAAA;;AAGF,MAAA,UAAA,CAAA,CAAA,oBAAA,CAAA;AACE,eAAA;;AAIF,OAAA,KAAA,OAAA,IAAA,CAAA,SAAA,EAAA,OAAA,IAAA,CAAA,SAAA,EAAA;AACE,GAAA,CAAA;AACE,kBAAA;AACA,iBAAA;AACA,WAAA;AACA,eAAA;;;AAGJ,OAAA,KAAA,OAAA,IAAA,CAAA,SAAA,EAAA;AACE,GAAA,CAAA;AACE,eAAA;;;",
+  "names": []
+}
